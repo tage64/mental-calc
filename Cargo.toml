@@ -1,0 +1,15 @@
+[package]
+name = "mental_calc"
+version = "0.1.0"
+authors = ["Tage <frans.tage@gmail.com>"]
+edition = "2018"
+description = "A small CLI app which helps you to practise mental calculation."
+keywords = ["calculator", "mental", "game", "cli"]
+categories = ["command-line-utilities", "games"]
+license = "GPL-3.0-or-later"
+
+[dependencies]
+rand = "0.6.5"
+boxfnonce = "0.1.1"
+dialoguer = "0.3.0"
+num-traits = "0.2.6"
