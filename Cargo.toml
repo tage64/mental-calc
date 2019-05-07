@@ -8,6 +8,10 @@ keywords = ["calculator", "mental", "game", "cli"]
 categories = ["command-line-utilities", "games"]
 license = "GPL-3.0-or-later"
 
+[[bin]]
+path = "src/main.rs"
+name = "mcalc"
+
 [dependencies]
 rand = "0.6.5"
 boxfnonce = "0.1.1"
