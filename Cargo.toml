@@ -7,6 +7,9 @@ description = "A small CLI app which helps you to practise mental calculation."
 keywords = ["calculator", "mental", "game", "cli"]
 categories = ["command-line-utilities", "games"]
 license = "GPL-3.0-or-later"
+repository = "https://github.com/tage64/mental-calc"
+readme = "README.md"
+	
 
 [[bin]]
 path = "src/main.rs"
